@@ -1,0 +1,63 @@
+.div {
+}
+
+div.pres {
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p.BigText {
+  max-width: 400px;
+
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 50px;
+
+  text-align: center;
+  font-family: "Outfit", Sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p.SmallText {
+  color: #9a9a8d;
+
+  margin: 0;
+  padding-top: 20px;
+}
+
+button.Discover {
+  width: 200px;
+  height: 70px;
+
+  background: #1a1a1a;
+  color: #9a9a8d;
+
+  font-family: "Outfit", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+
+  border-radius: 10px;
+  border-color: #242424;
+  border-width: 1px;
+  border-style: solid;
+
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+button.Discover:hover {
+  transform: scale(0.9);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}

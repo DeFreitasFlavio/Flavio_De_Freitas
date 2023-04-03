@@ -3,7 +3,7 @@ import "./Homepage.css";
 
 import Header from "../Header/Header.jsx";
 import Projets from "../Projets/Projets.jsx";
-import Apropos from "../Apropos/Apropos.jsx";
+import About_us from "../About_us/About_us.jsx";
 
 import Flavio from "../../assets/Flavio.jpg";
 
@@ -19,7 +19,7 @@ const Homepage = () => {
         </p>
         <button className="Discover">Discover Me</button>
       </div>
-      <Apropos />
+      <About_us />
       <Projets />
     </div>
   );

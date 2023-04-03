@@ -7,7 +7,7 @@ div.Wrapper {
   align-items: center;
 }
 
-div.Apropos {
+div.About_us {
   width: 20%;
   height: 70%;
 
@@ -42,7 +42,7 @@ p.MediumText {
   margin: 0;
 }
 
-img.Apropos {
+img.About_us {
   width: 40px;
   height: 40px;
 

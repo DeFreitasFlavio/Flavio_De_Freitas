@@ -3,6 +3,7 @@ import "./Homepage.css";
 
 import Header from "../Header/Header.jsx";
 import Projets from "../Projets/Projets.jsx";
+import Apropos from "../Apropos/Apropos.jsx";
 
 import Flavio from "../../assets/Flavio.jpg";
 
@@ -18,6 +19,7 @@ const Homepage = () => {
         </p>
         <button className="Discover">Discover Me</button>
       </div>
+      <Apropos />
       <Projets />
     </div>
   );

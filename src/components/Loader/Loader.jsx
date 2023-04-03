@@ -16,24 +16,28 @@ const Loader = () => {
   }, []);
 
   return (
-    <div>
-      {" "}
+    <>
       {loading ? (
         <div className="Loading">
           <Player
             autoplay
             loop
             src="https://lottie.host/a07a2d86-686c-4ab5-9c27-4ee52e860989/wBZeqo9vFH.json"
-            style={{ height: "100%", width: "100%" }}
+            style={{
+              height: "500px",
+              width: "500px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
             speed={2}
           ></Player>
         </div>
       ) : (
-        <>
-          <Homepage />
-        </>
+        <Homepage />
       )}
-    </div>
+    </>
   );
 };
 

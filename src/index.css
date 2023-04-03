@@ -13,3 +13,7 @@ body {
   background-image: radial-gradient(#3d3d3d 0.5px, transparent 1px);
   background-size: 30px 30px;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,3 +1,12 @@
+div.WrapperAbout {
+  padding-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 div.Wrapper {
   height: 50vh;
 
@@ -5,10 +14,11 @@ div.Wrapper {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 div.About_us {
-  width: 20%;
+  width: 15%;
   height: 70%;
 
   margin: 20px;
@@ -51,4 +61,8 @@ img.About_us {
   color: #fff;
   border-color: #fff;
   border-radius: 0;
+}
+
+p.About {
+  max-width: 50%;
 }

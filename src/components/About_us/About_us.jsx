@@ -4,15 +4,15 @@ import "./About_us.css";
 import Design from "../../assets/UX&UI.png";
 import Web from "../../assets/Web&MobileApp.png";
 import Dev from "../../assets/Development.png";
+import Creative from "../../assets/Design&Creative.png";
 
 const About_us = () => {
   return (
-    <div className="WrapperAbout">
-      <p className="BigText About">
+    <section className="WrapperAbout">
+      <p className="BigText About" id="About">
         Collaborate with professionals and individuals to create impactful
         results.
       </p>
-
       <div className="Wrapper">
         <div className="About_us">
           <img src={Design} alt="" className="About_us" />
@@ -32,7 +32,7 @@ const About_us = () => {
         </div>
 
         <div className="About_us">
-          <img src={Dev} alt="" className="About_us" />
+          <img src={Creative} alt="" className="About_us" />
           <p className="MediumText">Design & Creative</p>
           <p>
             Crafting visually stunning designs that connect with your audience.
@@ -48,7 +48,8 @@ const About_us = () => {
           </p>
         </div>
       </div>
-    </div>
+      <div className="Line"></div>
+    </section>
   );
 };
 

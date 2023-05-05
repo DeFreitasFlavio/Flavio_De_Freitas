@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Outfit", Sans-serif;
+  font-family: "Outfit" !important;
   line-height: 1.5;
 
   background-color: #161616;
-  color: #fff;
+  color: #dadada;
 
   -webkit-font-smoothing: antialiased;
 
@@ -16,4 +16,13 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #dadada;
+  text-decoration: none;
 }

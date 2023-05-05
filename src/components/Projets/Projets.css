@@ -32,3 +32,33 @@ div.Projets {
   align-items: center;
   justify-content: center;
 }
+
+a.ButtonProjets {
+  width: 100px;
+  height: 50px;
+
+  background: #1a1a1a;
+  color: #9a9a8d;
+
+  font-family: "Outfit", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+
+  border-radius: 10px;
+  border-color: #242424;
+  border-width: 1px;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+a.ButtonProjets:hover {
+  transform: scale(1.1);
+  border-color: #444444;
+}

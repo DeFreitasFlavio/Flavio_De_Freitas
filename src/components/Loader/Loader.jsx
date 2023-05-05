@@ -12,7 +12,7 @@ const Loader = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3 /* 000 */);
+    }, 3000);
   }, []);
 
   return (

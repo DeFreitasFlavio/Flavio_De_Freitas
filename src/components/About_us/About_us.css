@@ -31,10 +31,11 @@ img.About_us {
   color: #fff;
   border-color: #fff;
   border-radius: 0;
-}
 
-p.About {
-  max-width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 div.Line {

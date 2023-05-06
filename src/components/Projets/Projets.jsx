@@ -46,7 +46,7 @@ const Projets = () => {
             return (
               <div className="Card">
                 <p className="MediumText">{projet.title}</p>
-                <p>{projet.details}</p>
+                <p className="eclipsis">{projet.details}</p>
                 <p>Created by {projet.created}</p>
                 <div className="Button">
                   <a href={projet.git} className="ButtonProjets">

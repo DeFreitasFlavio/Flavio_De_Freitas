@@ -39,8 +39,8 @@ a.ButtonHeader {
   height: 70px;
 
   @media screen and (max-width: 768px) {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 
   background: #1a1a1a;
@@ -67,6 +67,11 @@ a.ButtonHeader:hover {
 .Mail {
   height: 23px;
   width: 23px;
+
+  @media screen and (max-width: 768px) {
+    height: 18px;
+    width: 18px;
+  }
 }
 
 div.TextHeader {

@@ -6,6 +6,11 @@ section.WrapperProjets {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 div.Button {

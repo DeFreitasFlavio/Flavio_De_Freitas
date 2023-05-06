@@ -41,7 +41,8 @@ p.BigText {
   font-weight: bold;
 
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 28px;
+    max-width: 300px;
   }
 }
 
@@ -53,7 +54,7 @@ p.MediumText {
   margin: 0;
 
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -62,10 +63,17 @@ p.SmallText {
 
   margin: 0;
   padding-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
   }
+}
+
+p.eclipsis {
+  text-overflow: ellipsis;
+  overflow: auto;
 }
 
 /* Card */

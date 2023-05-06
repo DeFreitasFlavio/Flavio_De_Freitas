@@ -39,7 +39,7 @@ const About_us = () => {
   ];
   return (
     <section className="WrapperAbout">
-      <p className="BigText About" id="About">
+      <p className="BigText" id="About">
         Collaborate with professionals and individuals to create impactful
         results.
       </p>

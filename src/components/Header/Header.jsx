@@ -11,10 +11,10 @@ const Header = () => {
         </a>
         <div className="TextHeader">
           <a href="#About">
-            <p className="Header">About</p>
+            <p className="MediumText Header">About</p>
           </a>
           <a href="#Projets">
-            <p className="Header">Projets</p>
+            <p className="MediumText Header">Projets</p>
           </a>
         </div>
       </div>

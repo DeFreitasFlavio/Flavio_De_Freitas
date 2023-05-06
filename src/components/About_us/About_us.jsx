@@ -7,6 +7,36 @@ import Dev from "../../assets/Development.png";
 import Creative from "../../assets/Design&Creative.png";
 
 const About_us = () => {
+  const abouts = [
+    {
+      id: "1",
+      image: Design,
+      title: "UX & UI",
+      details:
+        "Designing interfaces that are intuitive, efficient, and enjoyable to use.",
+    },
+    {
+      id: "2",
+      image: Web,
+      title: "Web & Mobile App",
+      details:
+        "Transforming ideas into exceptional web and mobile app experiences.",
+    },
+    {
+      id: "3",
+      image: Dev,
+      title: "Design & Creative",
+      details:
+        "Crafting visually stunning designs that connect with your audience.",
+    },
+    {
+      id: "4",
+      image: Creative,
+      title: "Development",
+      details:
+        "Bring your vision to life with the latest technologies and trends in design and programming.",
+    },
+  ];
   return (
     <section className="WrapperAbout">
       <p className="BigText About" id="About">
@@ -14,41 +44,17 @@ const About_us = () => {
         results.
       </p>
       <div className="Wrapper">
-        <div className="About_us">
-          <img src={Design} alt="" className="About_us" />
-          <p className="MediumText">UX & UI</p>
-          <p>
-            Designing interfaces that are intuitive, efficient, and enjoyable to
-            use.
-          </p>
-        </div>
-
-        <div className="About_us">
-          <img src={Web} alt="" className="About_us" />
-          <p className="MediumText">Web & Mobile App</p>
-          <p>
-            Transforming ideas into exceptional web and mobile app experiences.
-          </p>
-        </div>
-
-        <div className="About_us">
-          <img src={Creative} alt="" className="About_us" />
-          <p className="MediumText">Design & Creative</p>
-          <p>
-            Crafting visually stunning designs that connect with your audience.
-          </p>
-        </div>
-
-        <div className="About_us">
-          <img src={Dev} alt="" className="About_us" />
-          <p className="MediumText">Development</p>
-          <p>
-            Bring your vision to life with the latest technologies and trends in
-            design and programming.
-          </p>
-        </div>
+        {abouts.map((about) => {
+          return (
+            <div className="Card">
+              <img src={about.image} className="About_us" />
+              <p className="MediumText">{about.title}</p>
+              <p>{about.details}</p>
+            </div>
+          );
+        })}
+        <div className="Line"></div>
       </div>
-      <div className="Line"></div>
     </section>
   );
 };

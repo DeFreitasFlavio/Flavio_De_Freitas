@@ -24,8 +24,8 @@ const Loader = () => {
             loop
             src="https://lottie.host/a07a2d86-686c-4ab5-9c27-4ee52e860989/wBZeqo9vFH.json"
             style={{
-              height: "500px",
-              width: "500px",
+              height: "480px",
+              width: "480px",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",

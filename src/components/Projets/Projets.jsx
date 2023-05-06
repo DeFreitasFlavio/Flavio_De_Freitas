@@ -2,7 +2,7 @@ import React from "react";
 import "./Projets.css";
 
 const Projets = () => {
-  const posts = [
+  const projets = [
     {
       id: "1",
       title: "ShopTaBoard",
@@ -42,22 +42,22 @@ const Projets = () => {
           Works
         </p>
         <div className="Wrapper">
-          {posts.map((post) => {
+          {projets.map((projet) => {
             return (
-              <div className="Projets">
-                <p className="MediumText">{post.title}</p>
-                <p>{post.details}</p>
-                <p>Created by {post.created}</p>
+              <div className="Card">
+                <p className="MediumText">{projet.title}</p>
+                <p>{projet.details}</p>
+                <p>Created by {projet.created}</p>
                 <div className="Button">
-                  <a href={post.git} className="ButtonProjets">
+                  <a href={projet.git} className="ButtonProjets">
                     Github
                   </a>
                 </div>
               </div>
             );
           })}
+          <div className="Line"></div>
         </div>
-        <div className="Line"></div>
       </section>
     </>
   );

@@ -14,23 +14,25 @@ const Projets = () => {
     {
       id: "2",
       title: "Twitter Clone",
-      details: "",
+      details:
+        "It's a Twitter clone, developed in NextJs with the tailwindcss library for the front-end, and for the back-end we used Firebase.",
       created: "Graig, Flavio",
-      git: "",
+      git: "https://github.com/Gra1gkolodziejczyk/twitter_nextjs_firebase/tree/main",
     },
     {
       id: "3",
-      title: "Top-Down Shooter",
-      details: "",
+      title: "The last survivor on the space",
+      details: "This is a top-down shooter, developed on GameMaker Studio 2",
       created: "Flavio",
-      git: "",
+      git: "https://github.com/DeFreitasFlavio/The-last-survivor-on-the-space",
     },
     {
       id: "4",
       title: "PortraiScopie",
-      details: "",
+      details:
+        "PortraiScopie is a new approach to entering in the world of work or reconversion, it brings a new vision of the CV or rather a refocusing of the skills that we really think we have.",
       created: "Graig, Flavio",
-      git: "",
+      git: "https://github.com/DeFreitasFlavio/PortraiScopie",
     },
   ];
   return (

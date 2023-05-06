@@ -37,7 +37,7 @@ p.BigText {
 
   text-align: center;
   font-family: "Outfit";
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
 
   @media screen and (max-width: 768px) {

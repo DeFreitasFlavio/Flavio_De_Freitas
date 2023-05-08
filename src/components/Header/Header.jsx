@@ -10,11 +10,12 @@ const Header = () => {
           <HiMail className="Mail" />
         </a>
         <div className="TextHeader">
-          <a href="#About">
-            <p className="MediumText Header">About</p>
+          <a href="https://www.linkedin.com/in/flavio-de-freitas/">
+            <p className="MediumText Header">Linkedin</p>
           </a>
-          <a href="#Projets">
-            <p className="MediumText Header">Projets</p>
+          <p>/</p>
+          <a href="https://github.com/DeFreitasFlavio">
+            <p className="MediumText Header">Github</p>
           </a>
         </div>
       </div>

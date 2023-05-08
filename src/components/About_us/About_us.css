@@ -7,7 +7,18 @@ section.WrapperAbout {
   justify-content: center;
   align-items: center;
 }
-
+/* 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+ */
 div.Wrapper {
   height: 50vh;
 
@@ -20,6 +31,9 @@ div.Wrapper {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  /* animation-name: fadeIn;
+  animation-duration: 5s; */
 }
 
 img.About_us {

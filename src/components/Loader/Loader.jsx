@@ -6,10 +6,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import Homepage from "../Homepage/Homepage.jsx";
 
 const Loader = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3000);

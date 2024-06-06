@@ -11,7 +11,8 @@ div.WrapperHeader {
 }
 
 p.Header {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0;
 }
 
@@ -77,4 +78,6 @@ a.ButtonHeader:hover {
 div.TextHeader {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
